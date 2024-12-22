@@ -53,8 +53,8 @@ export default function FormsPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-3xl font-bold">Gestion des Formulaires</h1>
-        <Button>Nouveau Formulaire</Button>
+        <h1 className="text-3xl font-bold">Vos formulaires de suivis</h1>
+       {/* <Button>Nouveau Formulaire</Button>  */}
       </div>
 
       <Tabs defaultValue="all" className="space-y-6">
